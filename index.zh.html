@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Miao Miao's Home</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-home-heart-fill" style="font-size: 1.2rem;"></i>
+                Miao Miao's Home
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">首页</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">介绍</a></li>
+                    <li class="nav__item"><a href="#awards" class="nav__link">奖项</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">工作</a></li>
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">English</a>
+                    </li>
+                </ul>
+                <div class="nav__dark">
+                    <span class="change-theme-name">深色模式</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home" id="home">
+            <img src="assets/img/home1.webp" alt="" class="home__img" loading="lazy">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle mobile-margin" style="margin-left: 3pt;">即使我们不抬头仰望，</span>
+                    <h1 class="home__data-title"> <b>星空</b>，也在<br>注视着我们</h1>
+                    <a href="#about" class="button mobile-hide">了解更多</a>
+                </div>
+                <div class="home__social">
+                    <a href="https://github.com/SKlight-Liang" target="_blank" class="home__social-link"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.zhihu.com/people/67-38-50-46" target="_blank" class="home__social-link"><i class="ri-zhihu-line"></i></a>
+                    <a href="#footer" class="home__social-link"><i class="ri-wechat-fill"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">梁忆炎, Liang Yiyan<br>CS in Peking University</h2>
+                    <p class="about__description">现就读于北京大学信息科学技术学院，攻读信息与计算科学专业。目前致力于数据清洗和分析工作，旨在为特定的智能体训练过程提供更加精准和高效的数据支撑。</p>
+                    <a href="#footer" class="button">立即联系我！</a>
+                </div>
+                <div class="about__img">
+                    <div class="about__img-overlay"><img src="assets/img/about1.jpg" alt="" class="about__img-one" loading="lazy"></div>
+                    <div class="about__img-overlay"><img src="assets/img/about2.jpg" alt="" class="about__img-two" loading="lazy"></div>
+                </div>
+            </div>
+        </section>
+        <section class="experience section" id="awards">
+            <h2 class="section__title">奖项与经历</h2>
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data"><h2 class="experience__number">1</h2><span class="experience__description">年<br>奖学金</span></div>
+                    <div class="experience__data"><h2 class="experience__number">5</h2><span class="experience__description">竞赛<br>获奖</span></div>
+                    <div class="experience__data"><h2 class="experience__number">106+</h2><span class="experience__description">知乎<br>文章</span></div>
+                </div>
+                <div class="experience__data grid">
+                    <span class="experience__detail">
+                        2023 &#12288; <b>秦宛顺-靳云汇奖学金</b> <br>
+                        2023 &#12288; (CUPT)本科生项目展示 &#12288; 三等奖 <br>
+                        2023 &#12288; <b>北京大学思政教育优秀论文</b> <br>
+                        2023 &#12288; 九坤杯大学生程序设计竞赛 &#12288; 三等奖 <br>
+                        2024 &#12288; 北京大学大学生程序设计竞赛 &#12288; 二等奖 <br>
+                        2025 &#12288; 美国大学生建模大赛 &#12288; <b>Honorable Mention</b> <br>
+                        2025 &#12288; 清华大学大学生程序设计竞赛暨高校邀请赛 &#12288; <b>第十名</b> <br>
+                    </span>
+                </div>
+                <div class="experience__img grid">
+                    <div class="experience__overlay"><img src="assets/img/2025ICM.png" alt="" class="experience__img-one" loading="lazy"></div>
+                    <div class="experience__overlay"><img src="assets/img/QWSScholarship.jpg" alt="" class="experience__img-two" style="margin-top: 20pt;" loading="lazy"></div>
+                </div>
+            </div>
+        </section>
+        <section class="work section" id="work">
+            <h2 class="section__title">正在进行的工作</h2>
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/Work1.jpg" alt="" class="discover__img" loading="lazy">
+                        <div class="discover__data">
+                            <h2 class="discover__title">知识图谱</h2>
+                            <span class="discover__description">探寻词语之间的关联</span>
+                        </div>
+                    </div>
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/Work2.jpg" alt="" class="discover__img" loading="lazy">
+                        <div class="discover__data">
+                            <h2 class="discover__title">SWEBench</h2>
+                            <span class="discover__description">让计算机自动编程</span>
+                        </div>
+                    </div>
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/Work3.jpg" alt="" class="discover__img" loading="lazy">
+                        <div class="discover__data">
+                            <h2 class="discover__title">休息</h2>
+                            <span class="discover__description">怎么会有人要天天工作呢</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe section">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">订阅我的知乎和GitHub</h2>
+                    <p class="subscribe__description">订阅我的知乎和GitHub，获取最新动态和项目进展！</p>
+                    <div class="subscribe__social">
+                        <a href="https://github.com/SKlight-Liang" target="_blank" class="subscribe__social-link"><i class="ri-github-fill"></i></a>
+                        <a href="https://www.zhihu.com/people/67-38-50-46" target="_blank" class="subscribe__social-link"><i class="ri-zhihu-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer section" id="footer">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">联系方式</h3>
+                        <p class="footer__description">
+                            邮箱: 2200011633@stu.pku.edu.cn <br>
+                            电话: +86 188 5751 7710 <br>
+                            主页: https://sklight-liang.github.io/
+                        </p>
+                        <div>
+                            <a href="https://github.com/SKlight-Liang" target="_blank" class="footer__social"><i class="ri-github-fill"></i></a>
+                            <a href="https://www.zhihu.com/people/67-38-50-46" target="_blank" class="footer__social"><i class="ri-zhihu-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">关于</h3>
+                        <ul>
+                            <li class="footer__item"><a href="#about" class="footer__link">关于我</a></li>
+                            <li class="footer__item"><a href="https://github.com/SKlight-Liang" target="_blank" class="footer__link">GitHub</a></li>
+                            <li class="footer__item"><a href="https://www.zhihu.com/people/67-38-50-46" target="_blank" class="footer__link">知乎</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">支持</h3>
+                        <ul>
+                            <li class="footer__item"><a href="https://github.com/SKlight-Liang/SKlight-Liang.github.io/issues" target="_blank" class="footer__link">常见问题</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a href="#" class="scrollup" id="scroll-up"><i class="ri-arrow-up-line scrollup__icon"></i></a>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
