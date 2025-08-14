@@ -89,7 +89,7 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__data, .home__social-link, .home__info,
            .discover__container,
-           .experience__data, .experience__overlay,
+           .experience__data, .experience__overlay, .news__data,
            .place__card,
            .sponsor__content,
            .footer__data, .footer__rights`,{
