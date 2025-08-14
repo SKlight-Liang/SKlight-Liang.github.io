@@ -1077,3 +1077,13 @@ input {
     height: 640px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mobile-hide {
+    display: none !important;
+  }
+
+  .mobile-margin {
+    margin-top: 18rem !important;
+  }
+}
